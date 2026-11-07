@@ -63,7 +63,7 @@ Read the early years with care.
 Before 1990 most picks were very short trend rules, and old index data trends a little from day to day, partly because many stocks traded rarely (Lo & MacKinlay, 1988).
 Trading the whole market at each day's close wasn't practical then, so that edge is mostly not tradeable.
 
-Levels quoted in the video: US market 0.45 (`real_market.py`); Berkshire Hathaway 0.79, 1976-2017 (Frazzini, Kabiller & Pedersen, 2018); "2 very good, 3 excellent" is a rule of thumb, as quoted in a footnote of Xiao, Sun, Luo & Wang, arXiv 2412.20138.
+Levels quoted in the video: US market 0.45 (`real_market.py`); Berkshire Hathaway 0.79 (Frazzini, Kabiller & Pedersen, 2018); "2 very good, 3 excellent" is a rule of thumb, as quoted in a footnote of Xiao, Sun, Luo & Wang, arXiv 2412.20138.
 
 ## Limits
 
