@@ -1,0 +1,9 @@
+REAL PRICE: US stock market, 1926-2026, 5 bps a switch, out = T-bills (Ken French data library, CRSP vintage 202609)
+Market buy and hold, monthly        Sharpe 0.45
+Picked on 1990-2015                  Sharpe 0.58   (in when price is above its 250-day average by 1.0%, act 1 day later)
+          test 2016-2026             Sharpe 0.76   buy and hold 0.73; 89 of 1,000 rules beat buy and hold
+Walk-forward, train 1y, 1928-2026   picked at 2.74 -> Sharpe 0.58 vs buy and hold 0.44
+          before 1990 0.90 vs 0.40 | 1990-2026 0.22 vs 0.52 | 2016-2026 0.06 vs 0.73
+Walk-forward, train 5y, 1932-2026   picked at 1.69 -> Sharpe 0.79 vs buy and hold 0.52
+          before 1990 1.29 vs 0.53 | 1990-2026 0.10 vs 0.52 | 2016-2026 0.09 vs 0.73
+Education, not advice.

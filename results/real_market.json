@@ -1,0 +1,1227 @@
+{
+ "mkt_sharpe_full": 0.45389528213587277,
+ "mkt_design": 0.5837695838636344,
+ "mkt_test": 0.7557532207382515,
+ "mkt_bh_test": 0.7282921109847665,
+ "mkt_wf_sharpe": 0.5828333503949216,
+ "mkt_wf_bh": 0.4438463469855345,
+ "mkt_wf_post1990": 0.21538307588699723,
+ "mkt_wf_bh_post1990": 0.519602902371861,
+ "market_holdout": {
+  "rule": "in when price is above its 250-day average by 1.0%, act 1 day later",
+  "design_sharpe": 0.5837695838636344,
+  "test_sharpe": 0.7557532207382515,
+  "bh_design_sharpe": 0.43172441577405024,
+  "bh_test_sharpe": 0.7282921109847665,
+  "test_rank_of_winner": 66,
+  "rules_beating_bh_test": 89
+ },
+ "market_walk_forward": {
+  "1": {
+   "start": 1928,
+   "is_mean": 2.7406553265593585,
+   "oos_mean_yearly": 0.9213934304879356,
+   "sharpe": 0.5828333503949216,
+   "bh_sharpe": 0.4438463469855345,
+   "steps": [
+    {
+     "year": 1928,
+     "rule": "in when price is above its 8-day average by 0.5%, act 1 day later",
+     "is": 2.9206104850910397,
+     "oos": 3.0433699076878864
+    },
+    {
+     "year": 1929,
+     "rule": "in when price is above its 10-day average, act 1 day later",
+     "is": 3.3404659816053837,
+     "oos": 0.29050691645969207
+    },
+    {
+     "year": 1930,
+     "rule": "in when price is above its 8-day average by 1.0%, act 1 day later",
+     "is": 2.536719148376308,
+     "oos": 0.5271266122825354
+    },
+    {
+     "year": 1931,
+     "rule": "in when price is above its 60-day average by 2.0%, act 1 day later",
+     "is": 1.410092756157241,
+     "oos": -0.5250209298908628
+    },
+    {
+     "year": 1932,
+     "rule": "in when price is below its 2-day average by 2.0%, act 3 days later",
+     "is": 1.1660587166178604,
+     "oos": 0.7275327622255485
+    },
+    {
+     "year": 1933,
+     "rule": "in when price is above its 2-day average by 2.0%, act 1 day later",
+     "is": 1.718235578168507,
+     "oos": 0.5449244416151233
+    },
+    {
+     "year": 1934,
+     "rule": "in when price is above its 3-day average, act 4 days later",
+     "is": 1.8215917492261626,
+     "oos": -1.117036706351917
+    },
+    {
+     "year": 1935,
+     "rule": "in when price is below its 2-day average by 0.5%, act 4 days later",
+     "is": 1.9459725584972019,
+     "oos": 1.7748229219063805
+    },
+    {
+     "year": 1936,
+     "rule": "in when price is above its 15-day average, act 1 day later",
+     "is": 2.761159306285484,
+     "oos": 0.22521898726244718
+    },
+    {
+     "year": 1937,
+     "rule": "in when price is above its 60-day average, act 4 days later",
+     "is": 2.123405548478014,
+     "oos": -0.4501672785362789
+    },
+    {
+     "year": 1938,
+     "rule": "in when price is below its 4-day average by 2.0%, act 1 day later",
+     "is": 1.7612079472898954,
+     "oos": 0.053644932355091934
+    },
+    {
+     "year": 1939,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 2.2726163620455555,
+     "oos": 1.1161832668779244
+    },
+    {
+     "year": 1940,
+     "rule": "in when price is below its 250-day average by 2.0%, act 5 days later",
+     "is": 1.8695607092818605,
+     "oos": 0.6429104298417537
+    },
+    {
+     "year": 1941,
+     "rule": "in when price is above its 3-day average by 0.5%, act 3 days later",
+     "is": 1.4003533218596456,
+     "oos": 0.7911271667316113
+    },
+    {
+     "year": 1942,
+     "rule": "in when price is below its 5-day average by 2.0%, act 5 days later",
+     "is": 1.6227540175539656,
+     "oos": 0.7165825628154116
+    },
+    {
+     "year": 1943,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 3.6918683497452682,
+     "oos": 3.8066138051788596
+    },
+    {
+     "year": 1944,
+     "rule": "in when price is above its 4-day average by 0.5%, act 1 day later",
+     "is": 4.119285186935399,
+     "oos": 1.6530301823936089
+    },
+    {
+     "year": 1945,
+     "rule": "in when price is above its 4-day average, act 1 day later",
+     "is": 3.7839899714856284,
+     "oos": 2.0804939305976533
+    },
+    {
+     "year": 1946,
+     "rule": "in when price is above its 5-day average by 0.5%, act 1 day later",
+     "is": 4.093862044322874,
+     "oos": 0.7108600348700339
+    },
+    {
+     "year": 1947,
+     "rule": "in when price is above its 8-day average by 2.0%, act 4 days later",
+     "is": 2.632262673435372,
+     "oos": 1.6804270987126146
+    },
+    {
+     "year": 1948,
+     "rule": "in when price is above its 6-day average by 1.0%, act 5 days later",
+     "is": 2.5601636670662846,
+     "oos": 0.3101304112956553
+    },
+    {
+     "year": 1949,
+     "rule": "in when price is above its 18-day average by 2.0%, act 1 day later",
+     "is": 2.4554297290926077,
+     "oos": 1.2856867564888725
+    },
+    {
+     "year": 1950,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 3.459243619786047,
+     "oos": 0.9433891037918536
+    },
+    {
+     "year": 1951,
+     "rule": "in when price is below its 5-day average, act 2 days later",
+     "is": 2.437821208480415,
+     "oos": 0.9169996899291297
+    },
+    {
+     "year": 1952,
+     "rule": "in when price is above its 15-day average by 1.0%, act 1 day later",
+     "is": 3.143919381544751,
+     "oos": 2.972440374446042
+    },
+    {
+     "year": 1953,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 3.67541981318724,
+     "oos": 1.9076075472964458
+    },
+    {
+     "year": 1954,
+     "rule": "in when price is above its 8-day average by 0.5%, act 1 day later",
+     "is": 2.888542981587959,
+     "oos": 4.559244777047485
+    },
+    {
+     "year": 1955,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 6.207930484718619,
+     "oos": 1.1043923342966064
+    },
+    {
+     "year": 1956,
+     "rule": "in when price is above its 10-day average by 1.0%, act 1 day later",
+     "is": 2.9174510648680254,
+     "oos": 1.4426436813623498
+    },
+    {
+     "year": 1957,
+     "rule": "in when price is above its 25-day average by 2.0%, act 5 days later",
+     "is": 2.960063030206649,
+     "oos": 0.39559834639881825
+    },
+    {
+     "year": 1958,
+     "rule": "in when price is above its 3-day average by 1.0%, act 4 days later",
+     "is": 2.0167147826393963,
+     "oos": -0.8569509683980359
+    },
+    {
+     "year": 1959,
+     "rule": "in when price is above its 4-day average, act 1 day later",
+     "is": 4.667735018806095,
+     "oos": 1.4889588661574837
+    },
+    {
+     "year": 1960,
+     "rule": "in when price is above its 4-day average by 0.5%, act 1 day later",
+     "is": 2.409473888973436,
+     "oos": 1.7882288590708693
+    },
+    {
+     "year": 1961,
+     "rule": "in when price is above its 12-day average by 0.5%, act 1 day later",
+     "is": 2.90597769531505,
+     "oos": 3.300574613845762
+    },
+    {
+     "year": 1962,
+     "rule": "in when price is above its 5-day average by 0.5%, act 1 day later",
+     "is": 3.8482601032337556,
+     "oos": 1.7560799599480374
+    },
+    {
+     "year": 1963,
+     "rule": "in when price is above its 8-day average by 1.0%, act 1 day later",
+     "is": 3.3388029747614136,
+     "oos": 2.3658221155603627
+    },
+    {
+     "year": 1964,
+     "rule": "in when price is above its 30-day average by 2.0%, act 1 day later",
+     "is": 3.491056344107413,
+     "oos": 2.1323631709539113
+    },
+    {
+     "year": 1965,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 4.176040876523447,
+     "oos": 3.835639279718922
+    },
+    {
+     "year": 1966,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 3.835639279718922,
+     "oos": 1.470461757369057
+    },
+    {
+     "year": 1967,
+     "rule": "in when price is above its 4-day average by 0.5%, act 1 day later",
+     "is": 2.706637284502893,
+     "oos": 2.6789622321152966
+    },
+    {
+     "year": 1968,
+     "rule": "in when price is above its 10-day average, act 1 day later",
+     "is": 4.690632383196623,
+     "oos": 2.701612057734657
+    },
+    {
+     "year": 1969,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 3.5807521042758816,
+     "oos": 1.1991517734889705
+    },
+    {
+     "year": 1970,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 2.5262901167528953,
+     "oos": 2.9645617228921823
+    },
+    {
+     "year": 1971,
+     "rule": "in when price is above its 5-day average by 0.5%, act 1 day later",
+     "is": 3.5935740000825076,
+     "oos": 2.5929391530542603
+    },
+    {
+     "year": 1972,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 3.6854431395407588,
+     "oos": 2.7060930404004857
+    },
+    {
+     "year": 1973,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 3.5901037909073104,
+     "oos": 1.1693181033491844
+    },
+    {
+     "year": 1974,
+     "rule": "in when price is above its 4-day average by 0.5%, act 1 day later",
+     "is": 2.008464389357729,
+     "oos": 0.6519133934155112
+    },
+    {
+     "year": 1975,
+     "rule": "in when price is below its 4-day average by 2.0%, act 5 days later",
+     "is": 1.8643561804492925,
+     "oos": 1.5377831537733382
+    },
+    {
+     "year": 1976,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 3.3742780451086514,
+     "oos": 2.541593722699552
+    },
+    {
+     "year": 1977,
+     "rule": "in when price is below its 60-day average by 2.0%, act 3 days later",
+     "is": 2.9311545750452512,
+     "oos": 1.0543044056125064
+    },
+    {
+     "year": 1978,
+     "rule": "in when price is below its 150-day average by 1.0%, act 4 days later",
+     "is": 2.3738878319665893,
+     "oos": 0.416804309846984
+    },
+    {
+     "year": 1979,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.621486859887995,
+     "oos": 2.074454960004022
+    },
+    {
+     "year": 1980,
+     "rule": "in when price is below its 150-day average, act 3 days later",
+     "is": 3.1433905313003767,
+     "oos": 0.2755464299396981
+    },
+    {
+     "year": 1981,
+     "rule": "in when price is above its 4-day average by 0.5%, act 1 day later",
+     "is": 3.003263953923223,
+     "oos": -0.11445868919475997
+    },
+    {
+     "year": 1982,
+     "rule": "in when price is above its 3-day average by 1.0%, act 1 day later",
+     "is": 1.671136512678646,
+     "oos": 0.6227880729491524
+    },
+    {
+     "year": 1983,
+     "rule": "in when price is above its 5-day average by 0.5%, act 1 day later",
+     "is": 2.286466068745864,
+     "oos": 1.2761212542519185
+    },
+    {
+     "year": 1984,
+     "rule": "in when price is below its 12-day average, act 2 days later",
+     "is": 2.493172591477101,
+     "oos": -0.806090462269066
+    },
+    {
+     "year": 1985,
+     "rule": "in when price is below its 75-day average by 2.0%, act 4 days later",
+     "is": 1.9547425783945593,
+     "oos": 0.9099443462077187
+    },
+    {
+     "year": 1986,
+     "rule": "in when price is above its 21-day average by 0.5%, act 1 day later",
+     "is": 3.2347417324799967,
+     "oos": 1.2053769733018471
+    },
+    {
+     "year": 1987,
+     "rule": "in when price is below its 15-day average by 2.0%, act 2 days later",
+     "is": 2.8118570091106734,
+     "oos": -0.18759174087155947
+    },
+    {
+     "year": 1988,
+     "rule": "in when price is above its 40-day average by 0.5%, act 1 day later",
+     "is": 2.139256721063264,
+     "oos": 0.6899469310909753
+    },
+    {
+     "year": 1989,
+     "rule": "in when price is below its 75-day average by 1.0%, act 2 days later",
+     "is": 2.9860200614046173,
+     "oos": 1.0286180647622312
+    },
+    {
+     "year": 1990,
+     "rule": "in when price is below its 6-day average, act 3 days later",
+     "is": 3.332981887927351,
+     "oos": -0.8870522541336957
+    },
+    {
+     "year": 1991,
+     "rule": "in when price is above its 2-day average by 0.5%, act 1 day later",
+     "is": 2.094407917790997,
+     "oos": 2.19108160552475
+    },
+    {
+     "year": 1992,
+     "rule": "in when price is above its 10-day average by 2.0%, act 1 day later",
+     "is": 3.113904350041608,
+     "oos": -0.3250240822567692
+    },
+    {
+     "year": 1993,
+     "rule": "in when price is below its 150-day average, act 2 days later",
+     "is": 2.4077985452333452,
+     "oos": 0.0
+    },
+    {
+     "year": 1994,
+     "rule": "in when price is below its 18-day average by 0.5%, act 5 days later",
+     "is": 3.4438593463032854,
+     "oos": 1.0537716989848447
+    },
+    {
+     "year": 1995,
+     "rule": "in when price is below its 250-day average by 2.0%, act 3 days later",
+     "is": 3.025159075021267,
+     "oos": 0.0
+    },
+    {
+     "year": 1996,
+     "rule": "in when price is above its 150-day average, act 1 day later",
+     "is": 3.4313005921649276,
+     "oos": 1.0181977442210735
+    },
+    {
+     "year": 1997,
+     "rule": "in when price is above its 8-day average by 1.0%, act 1 day later",
+     "is": 3.290240303822712,
+     "oos": 0.32061060795131463
+    },
+    {
+     "year": 1998,
+     "rule": "in when price is below its 75-day average, act 4 days later",
+     "is": 2.8656200643841334,
+     "oos": 0.18893136690714835
+    },
+    {
+     "year": 1999,
+     "rule": "in when price is above its 30-day average by 2.0%, act 2 days later",
+     "is": 2.8513329405359285,
+     "oos": 0.20670244330230023
+    },
+    {
+     "year": 2000,
+     "rule": "in when price is below its 50-day average by 0.5%, act 3 days later",
+     "is": 2.768332556108965,
+     "oos": 0.6107204513665221
+    },
+    {
+     "year": 2001,
+     "rule": "in when price is above its 3-day average by 2.0%, act 3 days later",
+     "is": 1.8562332347715478,
+     "oos": -0.7308718646634118
+    },
+    {
+     "year": 2002,
+     "rule": "in when price is above its 10-day average by 2.0%, act 3 days later",
+     "is": 1.6708176059683117,
+     "oos": -0.5539351860208946
+    },
+    {
+     "year": 2003,
+     "rule": "in when price is below its 5-day average by 2.0%, act 4 days later",
+     "is": 2.129643525507373,
+     "oos": -0.43599431812685985
+    },
+    {
+     "year": 2004,
+     "rule": "in when price is above its 225-day average, act 2 days later",
+     "is": 2.3237783754828976,
+     "oos": 0.5831296134846651
+    },
+    {
+     "year": 2005,
+     "rule": "in when price is below its 60-day average by 2.0%, act 3 days later",
+     "is": 2.3102206737129123,
+     "oos": -0.08213061047805985
+    },
+    {
+     "year": 2006,
+     "rule": "in when price is below its 150-day average by 1.0%, act 1 day later",
+     "is": 2.8737387405439025,
+     "oos": 0.7945926433364723
+    },
+    {
+     "year": 2007,
+     "rule": "in when price is below its 8-day average, act 2 days later",
+     "is": 2.164582998926578,
+     "oos": 0.45497682031340136
+    },
+    {
+     "year": 2008,
+     "rule": "in when price is below its 2-day average by 0.5%, act 1 day later",
+     "is": 1.9483576852845486,
+     "oos": 0.6080723152714732
+    },
+    {
+     "year": 2009,
+     "rule": "in when price is above its 2-day average by 1.0%, act 3 days later",
+     "is": 1.3054256644405982,
+     "oos": 0.5258355412439083
+    },
+    {
+     "year": 2010,
+     "rule": "in when price is above its 90-day average, act 4 days later",
+     "is": 2.2019954549305627,
+     "oos": 0.5363579498339822
+    },
+    {
+     "year": 2011,
+     "rule": "in when price is below its 250-day average, act 4 days later",
+     "is": 2.5158957076221498,
+     "oos": 0.3575264326430304
+    },
+    {
+     "year": 2012,
+     "rule": "in when price is below its 3-day average by 2.0%, act 3 days later",
+     "is": 2.088856623299723,
+     "oos": 0.0
+    },
+    {
+     "year": 2013,
+     "rule": "in when price is below its 120-day average by 0.5%, act 3 days later",
+     "is": 2.995144218470361,
+     "oos": 0.0
+    },
+    {
+     "year": 2014,
+     "rule": "in when price is below its 40-day average by 0.5%, act 3 days later",
+     "is": 3.043829492393015,
+     "oos": 1.2387207585343927
+    },
+    {
+     "year": 2015,
+     "rule": "in when price is above its 8-day average by 1.0%, act 1 day later",
+     "is": 2.907528043715595,
+     "oos": -1.1570941299637403
+    },
+    {
+     "year": 2016,
+     "rule": "in when price is below its 18-day average by 1.0%, act 4 days later",
+     "is": 2.022719771574254,
+     "oos": 0.9994731539628998
+    },
+    {
+     "year": 2017,
+     "rule": "in when price is above its 30-day average by 1.0%, act 3 days later",
+     "is": 2.4699769316834006,
+     "oos": 1.6877503414090687
+    },
+    {
+     "year": 2018,
+     "rule": "in when price is below its 8-day average, act 1 day later",
+     "is": 3.2490867338755414,
+     "oos": -1.4071439538120356
+    },
+    {
+     "year": 2019,
+     "rule": "in when price is below its 3-day average by 2.0%, act 1 day later",
+     "is": 1.6925701785761986,
+     "oos": 0.9587444360756286
+    },
+    {
+     "year": 2020,
+     "rule": "in when price is below its 120-day average, act 1 day later",
+     "is": 3.622252400358354,
+     "oos": 0.3235317813867419
+    },
+    {
+     "year": 2021,
+     "rule": "in when price is above its 25-day average by 1.0%, act 1 day later",
+     "is": 2.146328388188809,
+     "oos": 0.4882279044443723
+    },
+    {
+     "year": 2022,
+     "rule": "in when price is below its 40-day average, act 2 days later",
+     "is": 3.117057990308116,
+     "oos": -0.2256211157823808
+    },
+    {
+     "year": 2023,
+     "rule": "in when price is above its 2-day average by 2.0%, act 1 day later",
+     "is": 0.9510338494126347,
+     "oos": 0.0
+    },
+    {
+     "year": 2024,
+     "rule": "in when price is below its 200-day average by 0.5%, act 3 days later",
+     "is": 2.668832675652514,
+     "oos": 0.0
+    },
+    {
+     "year": 2025,
+     "rule": "in when price is below its 50-day average, act 4 days later",
+     "is": 2.9511117714435424,
+     "oos": 0.13732234954394276
+    },
+    {
+     "year": 2026,
+     "rule": "in when price is above its 2-day average by 1.0%, act 3 days later",
+     "is": 1.81405419516958,
+     "oos": 1.1363842436316935
+    }
+   ],
+   "pre1990": {
+    "sharpe": 0.896841308817078,
+    "bh_sharpe": 0.3988618796035428
+   },
+   "post1990": {
+    "sharpe": 0.21538307588699723,
+    "bh_sharpe": 0.519602902371861
+   },
+   "last10": {
+    "sharpe": 0.06476600054232767,
+    "bh_sharpe": 0.7282921109847665
+   }
+  },
+  "5": {
+   "start": 1932,
+   "is_mean": 1.6933289162729122,
+   "oos_mean_yearly": 1.1409389067440752,
+   "sharpe": 0.7939330740982928,
+   "bh_sharpe": 0.5235274940916146,
+   "steps": [
+    {
+     "year": 1932,
+     "rule": "in when price is above its 200-day average by 2.0%, act 3 days later",
+     "is": 1.0713300830582837,
+     "oos": -0.577453828732098
+    },
+    {
+     "year": 1933,
+     "rule": "in when price is above its 6-day average by 0.5%, act 1 day later",
+     "is": 1.0064415445914818,
+     "oos": 1.7037241655621351
+    },
+    {
+     "year": 1934,
+     "rule": "in when price is above its 6-day average by 0.5%, act 1 day later",
+     "is": 1.1161632855348385,
+     "oos": 0.5342182313686824
+    },
+    {
+     "year": 1935,
+     "rule": "in when price is above its 6-day average by 1.0%, act 1 day later",
+     "is": 1.020950281539808,
+     "oos": 0.7977938151577356
+    },
+    {
+     "year": 1936,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.148129442689104,
+     "oos": 1.609842237366188
+    },
+    {
+     "year": 1937,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.359479243331457,
+     "oos": 0.7186059542263736
+    },
+    {
+     "year": 1938,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.3809758766126468,
+     "oos": 2.2726163620455555
+    },
+    {
+     "year": 1939,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.6034569785619213,
+     "oos": 1.1161832668779244
+    },
+    {
+     "year": 1940,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.5408552938651212,
+     "oos": 0.3095982255826599
+    },
+    {
+     "year": 1941,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.2653211850148456,
+     "oos": 0.8600305756011194
+    },
+    {
+     "year": 1942,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.1586057811750434,
+     "oos": 1.6928766237773416
+    },
+    {
+     "year": 1943,
+     "rule": "in when price is above its 5-day average, act 1 day later",
+     "is": 1.2992937169176755,
+     "oos": 3.299297557162284
+    },
+    {
+     "year": 1944,
+     "rule": "in when price is above its 4-day average by 0.5%, act 1 day later",
+     "is": 1.258052872516774,
+     "oos": 1.6530301823936089
+    },
+    {
+     "year": 1945,
+     "rule": "in when price is above its 4-day average, act 1 day later",
+     "is": 1.7738185373940534,
+     "oos": 2.0804939305976533
+    },
+    {
+     "year": 1946,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.903660418681072,
+     "oos": 1.7633185291569553
+    },
+    {
+     "year": 1947,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.873193764071448,
+     "oos": 0.7336129445996844
+    },
+    {
+     "year": 1948,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.3068922089198143,
+     "oos": 0.6983554929312215
+    },
+    {
+     "year": 1949,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.7205085651850045,
+     "oos": 3.459243619786047
+    },
+    {
+     "year": 1950,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.9391467182364568,
+     "oos": 0.9433891037918536
+    },
+    {
+     "year": 1951,
+     "rule": "in when price is above its 18-day average by 1.0%, act 4 days later",
+     "is": 1.51154645639991,
+     "oos": 1.7042253036959483
+    },
+    {
+     "year": 1952,
+     "rule": "in when price is above its 15-day average by 1.0%, act 1 day later",
+     "is": 1.7156641759839983,
+     "oos": 2.972440374446042
+    },
+    {
+     "year": 1953,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.8947453333816862,
+     "oos": 1.9076075472964458
+    },
+    {
+     "year": 1954,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.270101264081594,
+     "oos": 5.905747658413379
+    },
+    {
+     "year": 1955,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.637210407247155,
+     "oos": 2.182066604756132
+    },
+    {
+     "year": 1956,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 3.0228093247805616,
+     "oos": 1.0811222054277272
+    },
+    {
+     "year": 1957,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.710306045944484,
+     "oos": -0.7810939501607389
+    },
+    {
+     "year": 1958,
+     "rule": "in when price is above its 12-day average, act 1 day later",
+     "is": 1.9856176532875789,
+     "oos": 4.161801774127065
+    },
+    {
+     "year": 1959,
+     "rule": "in when price is above its 12-day average, act 1 day later",
+     "is": 2.47134046465814,
+     "oos": 1.9228713146653789
+    },
+    {
+     "year": 1960,
+     "rule": "in when price is above its 12-day average, act 1 day later",
+     "is": 1.9086556631975982,
+     "oos": 1.8800317825104398
+    },
+    {
+     "year": 1961,
+     "rule": "in when price is above its 10-day average by 0.5%, act 1 day later",
+     "is": 2.047477932022144,
+     "oos": 2.853696940613983
+    },
+    {
+     "year": 1962,
+     "rule": "in when price is above its 12-day average, act 1 day later",
+     "is": 2.3892509500582513,
+     "oos": 2.1223108272935867
+    },
+    {
+     "year": 1963,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 2.946980865560165,
+     "oos": 2.434340449315912
+    },
+    {
+     "year": 1964,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 2.599737676017051,
+     "oos": 4.037168171272204
+    },
+    {
+     "year": 1965,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 2.870171117871593,
+     "oos": 2.614140645791998
+    },
+    {
+     "year": 1966,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 2.903470278869777,
+     "oos": 0.7020035806706811
+    },
+    {
+     "year": 1967,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 2.201212848040729,
+     "oos": 4.669934183590989
+    },
+    {
+     "year": 1968,
+     "rule": "in when price is above its 6-day average, act 1 day later",
+     "is": 2.8584128666718405,
+     "oos": 3.4882070396791462
+    },
+    {
+     "year": 1969,
+     "rule": "in when price is above its 6-day average, act 1 day later",
+     "is": 3.0442652282265246,
+     "oos": 1.2876090031365899
+    },
+    {
+     "year": 1970,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 2.6397515880004607,
+     "oos": 2.9645617228921823
+    },
+    {
+     "year": 1971,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 2.8580382491456344,
+     "oos": 2.2831948261207757
+    },
+    {
+     "year": 1972,
+     "rule": "in when price is above its 8-day average, act 1 day later",
+     "is": 3.0633362354013167,
+     "oos": 2.7060930404004857
+    },
+    {
+     "year": 1973,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.9333380786857837,
+     "oos": 1.1693181033491844
+    },
+    {
+     "year": 1974,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.5245968195007102,
+     "oos": 1.0444303706613582
+    },
+    {
+     "year": 1975,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.0910808938884995,
+     "oos": 3.3742780451086514
+    },
+    {
+     "year": 1976,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.2319766340578386,
+     "oos": 2.541593722699552
+    },
+    {
+     "year": 1977,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.1050579111549745,
+     "oos": 0.6770857890736593
+    },
+    {
+     "year": 1978,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.768870484305988,
+     "oos": 2.621486859887995
+    },
+    {
+     "year": 1979,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.026700836490806,
+     "oos": 2.074454960004022
+    },
+    {
+     "year": 1980,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.3763049146417163,
+     "oos": 2.951624410861328
+    },
+    {
+     "year": 1981,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 2.264709642593066,
+     "oos": -0.029621712954359447
+    },
+    {
+     "year": 1982,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.7517106073680784,
+     "oos": 1.1207871182060893
+    },
+    {
+     "year": 1983,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.7113416449278633,
+     "oos": 0.3616307329847573
+    },
+    {
+     "year": 1984,
+     "rule": "in when price is above its 3-day average by 0.5%, act 1 day later",
+     "is": 1.6268811934076888,
+     "oos": 0.775190187968734
+    },
+    {
+     "year": 1985,
+     "rule": "in when price is above its 3-day average by 0.5%, act 1 day later",
+     "is": 1.708852661585176,
+     "oos": 0.9634912593278061
+    },
+    {
+     "year": 1986,
+     "rule": "in when price is above its 3-day average by 0.5%, act 1 day later",
+     "is": 1.4422772846800163,
+     "oos": 1.1561882245054993
+    },
+    {
+     "year": 1987,
+     "rule": "in when price is above its 5-day average by 0.5%, act 1 day later",
+     "is": 1.5869840935022392,
+     "oos": 0.6464259463799369
+    },
+    {
+     "year": 1988,
+     "rule": "in when price is above its 6-day average by 0.5%, act 1 day later",
+     "is": 1.4144690309168602,
+     "oos": -1.7232517955066384
+    },
+    {
+     "year": 1989,
+     "rule": "in when price is above its 21-day average by 0.5%, act 1 day later",
+     "is": 1.2103741319615466,
+     "oos": 0.6038123423661594
+    },
+    {
+     "year": 1990,
+     "rule": "in when price is above its 10-day average, act 1 day later",
+     "is": 1.4309996650980628,
+     "oos": -0.6302738572128186
+    },
+    {
+     "year": 1991,
+     "rule": "in when price is above its 25-day average, act 1 day later",
+     "is": 0.9610382101747075,
+     "oos": 1.0853855387816818
+    },
+    {
+     "year": 1992,
+     "rule": "in when price is above its 2-day average by 0.5%, act 1 day later",
+     "is": 1.1702760226404207,
+     "oos": -0.0565066292116397
+    },
+    {
+     "year": 1993,
+     "rule": "in when price is above its 2-day average by 0.5%, act 1 day later",
+     "is": 1.3946028225334561,
+     "oos": 0.9034198345955833
+    },
+    {
+     "year": 1994,
+     "rule": "in when price is above its 2-day average, act 1 day later",
+     "is": 1.3955765906869437,
+     "oos": 0.06343994110829068
+    },
+    {
+     "year": 1995,
+     "rule": "in when price is above its 2-day average by 0.5%, act 1 day later",
+     "is": 1.301291990255044,
+     "oos": 0.42757938435977016
+    },
+    {
+     "year": 1996,
+     "rule": "in when price is below its 30-day average by 0.5%, act 4 days later",
+     "is": 1.7094201133724485,
+     "oos": 1.1518602762214458
+    },
+    {
+     "year": 1997,
+     "rule": "in when price is below its 10-day average, act 3 days later",
+     "is": 1.5850208612304242,
+     "oos": 1.8879109084353822
+    },
+    {
+     "year": 1998,
+     "rule": "in when price is above its 4-day average, act 1 day later",
+     "is": 1.731784260981965,
+     "oos": 2.1896336059782535
+    },
+    {
+     "year": 1999,
+     "rule": "in when price is above its 4-day average, act 1 day later",
+     "is": 1.9616057655779433,
+     "oos": 0.9296519284567389
+    },
+    {
+     "year": 2000,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 2.0126089334830946,
+     "oos": -0.6841017999169745
+    },
+    {
+     "year": 2001,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 1.275710760922262,
+     "oos": 0.06007592689680362
+    },
+    {
+     "year": 2002,
+     "rule": "in when price is above its 3-day average, act 1 day later",
+     "is": 0.9505630806566654,
+     "oos": -1.6099670745042858
+    },
+    {
+     "year": 2003,
+     "rule": "in when price is below its 2-day average by 2.0%, act 1 day later",
+     "is": 0.7268330082360793,
+     "oos": 0.0
+    },
+    {
+     "year": 2004,
+     "rule": "in when price is below its 4-day average by 2.0%, act 4 days later",
+     "is": 0.809534345995233,
+     "oos": -1.039959820711557
+    },
+    {
+     "year": 2005,
+     "rule": "in when price is below its 3-day average by 2.0%, act 4 days later",
+     "is": 0.7682185013851615,
+     "oos": 0.0
+    },
+    {
+     "year": 2006,
+     "rule": "in when price is below its 4-day average by 2.0%, act 4 days later",
+     "is": 0.9031614858267281,
+     "oos": 0.0
+    },
+    {
+     "year": 2007,
+     "rule": "in when price is below its 4-day average by 2.0%, act 4 days later",
+     "is": 0.9568794835679216,
+     "oos": -0.16906654243227193
+    },
+    {
+     "year": 2008,
+     "rule": "in when price is below its 12-day average, act 3 days later",
+     "is": 1.3023258208878055,
+     "oos": -0.7816662324021654
+    },
+    {
+     "year": 2009,
+     "rule": "in when price is above its 2-day average by 0.5%, act 3 days later",
+     "is": 0.5479167327337472,
+     "oos": -0.08119114517226311
+    },
+    {
+     "year": 2010,
+     "rule": "in when price is above its 2-day average by 2.0%, act 3 days later",
+     "is": 0.7211746643798586,
+     "oos": -1.0419612779819651
+    },
+    {
+     "year": 2011,
+     "rule": "in when price is above its 100-day average by 0.5%, act 4 days later",
+     "is": 0.901322875096874,
+     "oos": -0.8011857928134136
+    },
+    {
+     "year": 2012,
+     "rule": "in when price is below its 5-day average by 0.5%, act 1 day later",
+     "is": 0.7090140979525936,
+     "oos": -0.3937871006645837
+    },
+    {
+     "year": 2013,
+     "rule": "in when price is above its 90-day average by 1.0%, act 5 days later",
+     "is": 0.910811012326075,
+     "oos": 2.263221334393773
+    },
+    {
+     "year": 2014,
+     "rule": "in when price is above its 90-day average by 0.5%, act 4 days later",
+     "is": 1.2970468397382877,
+     "oos": 0.18191129398789752
+    },
+    {
+     "year": 2015,
+     "rule": "in when price is below its 6-day average, act 4 days later",
+     "is": 1.1178279114361738,
+     "oos": 0.8339892674933558
+    },
+    {
+     "year": 2016,
+     "rule": "in when price is below its 5-day average by 0.5%, act 4 days later",
+     "is": 1.2769820481143463,
+     "oos": 0.4330854265678943
+    },
+    {
+     "year": 2017,
+     "rule": "in when price is below its 10-day average by 0.5%, act 4 days later",
+     "is": 1.6972085383421627,
+     "oos": 0.5726940592781175
+    },
+    {
+     "year": 2018,
+     "rule": "in when price is below its 10-day average by 0.5%, act 4 days later",
+     "is": 1.4648772801607703,
+     "oos": -0.23554533890856383
+    },
+    {
+     "year": 2019,
+     "rule": "in when price is below its 8-day average by 0.5%, act 5 days later",
+     "is": 1.1635323220481621,
+     "oos": 1.0597244805912174
+    },
+    {
+     "year": 2020,
+     "rule": "in when price is below its 8-day average by 0.5%, act 5 days later",
+     "is": 1.1246438919705337,
+     "oos": 0.32706755895274503
+    },
+    {
+     "year": 2021,
+     "rule": "in when price is above its 12-day average, act 2 days later",
+     "is": 1.358597479363602,
+     "oos": 0.21899457030282474
+    },
+    {
+     "year": 2022,
+     "rule": "in when price is above its 10-day average, act 2 days later",
+     "is": 1.3115627074918972,
+     "oos": -1.4971484682873628
+    },
+    {
+     "year": 2023,
+     "rule": "in when price is below its 5-day average by 1.0%, act 5 days later",
+     "is": 0.9194845575532425,
+     "oos": -0.05366039566204171
+    },
+    {
+     "year": 2024,
+     "rule": "in when price is above its 25-day average by 0.5%, act 1 day later",
+     "is": 1.0375976307026804,
+     "oos": 0.5994035649082262
+    },
+    {
+     "year": 2025,
+     "rule": "in when price is above its 200-day average by 0.5%, act 4 days later",
+     "is": 1.0187796835963385,
+     "oos": 0.34081817029019307
+    },
+    {
+     "year": 2026,
+     "rule": "in when price is above its 200-day average by 2.0%, act 1 day later",
+     "is": 0.8685097629930891,
+     "oos": 0.8375679448358189
+    }
+   ],
+   "pre1990": {
+    "sharpe": 1.2947744836622666,
+    "bh_sharpe": 0.5280968628062556
+   },
+   "post1990": {
+    "sharpe": 0.09558207410510548,
+    "bh_sharpe": 0.519602902371861
+   },
+   "last10": {
+    "sharpe": 0.0914198430343587,
+    "bh_sharpe": 0.7282921109847665
+   }
+  }
+ }
+}

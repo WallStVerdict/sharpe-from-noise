@@ -1,0 +1,6 @@
+Trials (N)                    1,000
+Best Sharpe (annualised)      3.19
+Expected max Sharpe, N=1,000  3.32   formula
+Mean max Sharpe, simulated    3.27   2,000 noise worlds
+Deflated Sharpe ratio         0.45   needs 0.95  (chance it is real: 45%, needs 95%)
+VERDICT: NOT SIGNIFICANT. Best of 1,000 tries on pure noise.

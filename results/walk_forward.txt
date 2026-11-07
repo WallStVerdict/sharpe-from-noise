@@ -1,0 +1,9 @@
+Rules (N)                         1,000
+PURE NOISE (each rule on its own random price)
+Hold-out: best on year 1             Sharpe 3.10   (in when price is below its 150-day average by 2.0%, act 4 days later)
+          same rule, next 5 years     Sharpe 0.28   by year: -0.18, 1.14, -0.03, 1.85, -0.33
+          top 10 on year 1           Sharpe 2.51 -> 0.07 next 5 years
+          link year 1 -> next 5     correlation 0.10 (0 = none)
+Walk-forward, 19 yearly re-picks   picked at 3.15 on average -> 0.15 the next year
+          all 19 traded years joined   Sharpe 0.20 (t 0.9); 10 of 19 years above zero
+Education, not advice.
