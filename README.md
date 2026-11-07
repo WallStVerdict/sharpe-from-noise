@@ -78,7 +78,7 @@ This is not our discovery.
 - Bailey, Borwein, López de Prado & Zhu (2014), "Pseudo-Mathematics and Financial Charlatanism: The Effects of Backtest Overfitting on Out-of-Sample Performance", Notices of the AMS 61(5), 458-471.
 - Bailey & López de Prado (2014), "The Deflated Sharpe Ratio", Journal of Portfolio Management 40(5), 94-107.
 - Harvey, Liu & Zhu (2016), "...and the Cross-Section of Expected Returns", Review of Financial Studies 29(1), 5-68.
-- Harvey & Liu (2015), "Backtesting", Journal of Portfolio Management 42(1), 13-28.
+- Harvey & Liu (2015), "Backtesting", Journal of Portfolio Management, Fall 2015, 13-28.
 - Lo (2002), "The Statistics of Sharpe Ratios", Financial Analysts Journal 58(4), 36-52.
 
 Data: [Kenneth R. French Data Library](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html).
