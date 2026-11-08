@@ -1,8 +1,8 @@
 # Sharpe from noise: is a Sharpe of 3 real?
 
-<!-- YOUTUBE THUMBNAIL GOES HERE. After upload replace the next line with:
-     [![Watch the episode](https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg)](https://youtu.be/VIDEO_ID) -->
-**Episode video: link coming after upload.**
+[![Luck alone can reach a Sharpe of 3. Is your backtest real?](https://img.youtube.com/vi/FWVz9H95YeY/maxresdefault.jpg)](https://www.youtube.com/watch?v=FWVz9H95YeY)
+
+**Watch the episode:** [Luck alone can reach a Sharpe of 3. Is your backtest real?](https://www.youtube.com/watch?v=FWVz9H95YeY) (5 min)
 
 **The claim we test.** In 2014, Bailey, Borwein, López de Prado & Zhu showed that a backtest can look great just because enough strategies were tried.
 Their formula (Proposition 1) gives the expected best Sharpe ratio when every strategy has no skill.
